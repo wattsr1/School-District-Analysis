@@ -19,7 +19,9 @@ For this analysis a CSV file containing the math and reading scores of all the s
 These summaries were the focused to determine the effect of the group of 9th grade student scores from Thomas High School had on the overall analysis of the district and the schools within it. To determine the effect this group had across the district, their scores were removed from the analysis and the performance of the school was compared to that of the other schools within the district based on differences observed between the two seperate analysis completed of the students.  To illustrate how this was completed the image below show how the data was removed from the original data set to leave a blank score for the 9th grade students at Thomas High School within the data set. Using this new data set and analysis of the performance of the schools with and without the suspected group could be completed. This analysis was completed using Pandas module in Python to clean and modify the data to complete the analysis.  The original and modified analysis are included within this repository.
 
 ### Resulting Data Set Showing the Removed 9th Grade Students at Thomas High School
-<img src="Resources/Revised_student_data.png" width="1400" height="600">
+<img src="Resources/Revised_student_data.png" width="1400" height="300">
+
+---
 
 # Analysis Results
 
@@ -67,6 +69,10 @@ Based on the removal of the 9th grade student score for Math and Reading there w
 ### Student Scores by School Type
 <img src="Resources/Student_scores_by_type_Initial_revised.png" width="1400" height="500">
 
+---
+
 # Summary
 
 From this analysis, the effects of the removal of the Thomas High School 9th grade reading and math scores showed that there was little impact on the overall performance of the school within the district.  This was illustrated in the small impact (0.1%) change in overall scores and minimal effect on the math and reading scores of THS with the revised analysis.  There was no change in the ranking of the school within the district and the change had little effect on the performance of similar size and type of school with similar budgets per student.  The small effect could be due to the small number of students the 9th grade at THS makes up for in the district with this group accounting for only 421 students of the 39170 students in the district.  This group makes up approximately 1% of the student population within the district but when looking at the grades of the school without the 9th grade scores included there is again a minimal change in the overall performance of the school.
+
+---
