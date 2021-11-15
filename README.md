@@ -18,7 +18,8 @@ For this analysis a CSV file containing the math and reading scores of all the s
 
 These summaries were the focused to determine the effect of the group of 9th grade student scores from Thomas High School had on the overall analysis of the district and the schools within it. To determine the effect this group had across the district, their scores were removed from the analysis and the performance of the school was compared to that of the other schools within the district based on differences observed between the two seperate analysis completed of the students.  To illustrate how this was completed the image below show how the data was removed from the original data set to leave a blank score for the 9th grade students at Thomas High School within the data set. Using this new data set and analysis of the performance of the schools with and without the suspected group could be completed. This analysis was completed using Pandas module in Python to clean and modify the data to complete the analysis.  The original and modified analysis are included within this repository.
 
-![Revised date for THS impact]("Resources/Original vs amended THS 9th Grades.png")
+### Resulting Data Set Showing the Removed 9th Grade Students at Thomas High School
+<img src="Resources/Revised_student_data.png" width="1400" height="600">
 
 # Analysis Results
 
@@ -26,9 +27,8 @@ These summaries were the focused to determine the effect of the group of 9th gra
 
 Based on the analysis of the district with and without the 9th grade students at Thomas High School, the overall impact was relatively minimal. As seen in the data below it shows a roughly 0.1% impact in the overall student performance in Math and a 0.2% overall performance in Reading compared to the overall student data within the district before the removal of the scores. Below shows the variations observed in the data between the two analyses.
 
-![Image of data variation between original and adjusted analysis
-
-
+### District Summaries for Initial (top) and Revised (bottom) Analysis
+<img src="Resources/District_Summary_Initial_Adjusted.png" width="1200" height="500">
  
 ## School Summary Impact
 
@@ -36,7 +36,11 @@ A deeper analysis of the impact of the 9th grade students of THS across the othe
 
 Based on the impact of the removal of the performance of the 9th grade student of THS within the district, there was a minimal effect on the performance of the schools with the removal of the scores of the suspected group of students of the school regarding the percentage of students passing the math and reading requirements versus those that have passed math and reading overall.  This minimal variation was observed in the school summary developed in the analysis that was completed with and without the group of students in the analysis. Below shows the differences observed between the two DataFrames. 
 
-![Comparison of the original data and revised data for school performance]("Resources/School_Summary"]
+### Initial Analysis Overall School Performance
+<img src="Resources/School_Summary_Initial.png" width="1200" height="500">
+
+### Revised Analysis Overall School Performance
+<img src="Resources/School_Summary_Revised.png" width="1200" height="500">
 
 ## THS Performance Impact
 
@@ -44,15 +48,24 @@ The performance of THS was significantly impacted by the removal of the 9th grad
 
 The remove of the 9th grade students had no significant effect of the overall school performance within the district as seen in the image below
 
-![school performance by grade with and without the THS 9th grad students],"Resources/Comparison_Overall_School_Performance")
+### Initial Analysis School Ranking - Top 5 and Bottom 5
+<img src="Resources/Top_Bottom_performing_Schools_Initial.png" width="1400" height="500">
+
+### Revised Analysis School Ranking - Top 5 and Bottom 5
+<img src="Resources/Top_Bottom_Performing_Schools_Revised.png" width="1400" height="500">
 
 ## Impact of Student Scores Across the District
 
 Based on the removal of the 9th grade student score for Math and Reading there was no significant effect on the ranking of THS in based on school budget school size or school type. This is shown it the images below which show the variations of the data that includes or removes the 9th grade THS data.
 
-![Image of comparison of score vs school budget
-![Image of comparison of score vs school size
-![Image of comparison of score vs school type
+### Student Scores by School Spending
+<img src="Resources/Spending_per_student_initial_revised.png" width="1400" height="600">
+
+### Student Scores by School Size
+<img src="Resources/Student_scores_by_school_size_Initial_Revised.png" width="1400" height="600">
+
+### Student Scores by School Type
+<img src="Resources/Student_scores_by_type_Initial_revised.png" width="1400" height="500">
 
 # Summary
 
